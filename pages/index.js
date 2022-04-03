@@ -30,7 +30,7 @@ export default () => (
                 </AnnualOptionContainer>
                 <ButtonContainer>
                     <ProceedToPaymentButton>
-                        Proceed To Payment
+                        Proceed to Payment
                     </ProceedToPaymentButton>
                     <CancelOrderButton>
                         <CancelOrder>Cancel Order</CancelOrder>
@@ -109,7 +109,10 @@ padding-left:20px;
 const AnnualPlan=styled.div`
 font-weight:900;
 `;
-const MusicSubscriptionPrice=styled.div`
+const MusicSubscriptionPrice=styled.p`
+color:hsl(224, 23%, 55%);
+padding:0;
+margin:0;
 `;
 const MusicChangePlan=styled.a`
 width:20%;
@@ -125,6 +128,8 @@ font-weight:600;
 const ButtonContainer=styled.div`
 `;
 const ProceedToPaymentButton=styled.button`
+font-family: 'Red Hat Display', sans-serif;
+font-weight:700;
 background: none;
 color: white;
 border: none;
