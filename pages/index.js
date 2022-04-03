@@ -43,20 +43,23 @@ export default () => (
 );
 
 
-const Container = styled.div`
+const Container = styled.main`
 min-height:700px;
 height:100%;
 font-size:16px;
 background: url(image/pattern-background-mobile.svg);
 background-color:hsl(225, 100%, 94%);
+background-repeat: no-repeat;
+background-size: 100% 30%;
 
 @media (min-width: 768px){
     background: url(image/pattern-background-desktop.svg);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-color:hsl(225, 100%, 94%);
+    background-size: 100% 50%;
 }
 `;
-const Card = styled.div`
+const Card = styled.section`
 max-height:600px; max-width:440px;
 width:90%;
 background-color:white;
@@ -92,7 +95,7 @@ margin-bottom:20px;
 const AnnualPlanOption=styled.div`
 display:flex;
 padding:20px;
-border-radius:15px;
+border-radius:8px;
 background-color:hsl(225, 100%, 98%);
 `;
 const MusicIcon=styled.img`
@@ -128,7 +131,7 @@ border: none;
 background-color:hsl(245, 75%, 52%);
 width:100%;
 padding: 15px 0px 15px 0px;
-border-radius:5px;
+border-radius:8px;
 font-size:1.1em;
 box-shadow: 0px 12px 10px hsl(245, 75%, 92%);
 &:hover {
