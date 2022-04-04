@@ -9,7 +9,7 @@ export default () => (
     </Head>
     <Container className='center'>
         <Card>
-            <CardHeader src="./image/illustration-hero.svg"></CardHeader>
+            <CardHeader alt='illustration hero for card representing a person listening to music' src="./image/illustration-hero.svg"></CardHeader>
             <CardBody>
                 <Ordersummary className='center'>Order Summary</Ordersummary>
                 <Ordersummaryp>
@@ -18,7 +18,7 @@ export default () => (
                 </Ordersummaryp>
                 <AnnualOptionContainer>
                     <AnnualPlanOption className='center'>
-                        <MusicIcon src="./image/icon-music.svg"></MusicIcon>
+                        <MusicIcon alt='music icon' src="./image/icon-music.svg"></MusicIcon>
                         <MusicSubscriptionInformation>
                             <AnnualPlan>Annual Plan</AnnualPlan>
                             <MusicSubscriptionPrice>$59.99/year</MusicSubscriptionPrice>
