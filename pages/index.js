@@ -153,7 +153,7 @@ padding: 20px 0px 20px 0px;
 border-radius:5px;
 font-size:1.1em;
 `;
-const CancelOrder=styled.p`
+const CancelOrder=styled.div`
 margin:0;
 color:hsl(224, 23%, 55%);
 font-weight:700;
